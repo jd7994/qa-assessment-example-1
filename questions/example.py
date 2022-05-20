@@ -15,7 +15,7 @@
     
 def endsPy(input):
 	test = input[-2] + input[-1]
-	if test == "py" or test == "Py"or test == "pY" or test == "PY":
+	if test.lower() == "py":
 		return True
 	else:
 		return False
